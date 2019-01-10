@@ -1,0 +1,22 @@
+p {
+  font-family: Arial;
+    }
+h1{
+  color: maroon;
+}
+.title{
+  color: teal;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+#article-title{
+	font-family: cursive;
+	text-transform: capitalize;
+}
+
+
+/*
+Then, CSS can select HTML elements by their id attribute.
+To select an id element, CSS prepends the id name with a hashtag (#).
+*/

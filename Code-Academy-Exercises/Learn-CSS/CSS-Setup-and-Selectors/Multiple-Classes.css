@@ -1,0 +1,17 @@
+p {
+  font-family: Arial;
+    }
+h1{
+  color: maroon;
+}
+.title{
+  color: teal;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+
+/*
+We can add multiple classes to an HTML element's class attribute by separating them with a space.
+This enables us to mix and match CSS classes to create many unique styles without writing a custom class for every style combination needed.
+*/

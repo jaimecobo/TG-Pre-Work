@@ -1,0 +1,26 @@
+p {
+  font-family: Arial;
+    }
+h1{
+  color: maroon;
+}
+.title{
+  color: teal;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+#article-title{
+	font-family: cursive;
+	text-transform: capitalize;
+}
+.publish-time{
+  color: gray;
+}
+
+/*
+CSS can select HTML elements by their tag, class, and ID.
+CSS classes and IDs have different purposes, which can affect which one you use to style HTML elements.
+
+While classes are meant to be used many times, an ID is meant to style only one element.
+*/

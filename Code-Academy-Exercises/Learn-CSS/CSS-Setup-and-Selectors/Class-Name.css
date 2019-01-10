@@ -1,0 +1,14 @@
+p {
+  font-family: Arial;
+    }
+h1{
+  color: maroon;
+}
+.title{
+  color: teal;
+}
+
+/*
+To select an HTML element by its class using CSS, a period (.) must be prepended to the class's name.
+In the example above case, the class is brand, so the CSS selector for it is .brand.
+*/
