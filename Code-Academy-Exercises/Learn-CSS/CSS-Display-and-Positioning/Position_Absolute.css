@@ -6,9 +6,8 @@ body {
 header {
   background-color: #466995;
   border-bottom: 1px solid #466995;
-  position: fixed;
-  z-index: 10;
-
+  position: absolute;
+  width: 100%;
 }
 
 ul {
@@ -23,8 +22,6 @@ li {
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
-  display: inline-block;
-  width: 80px;
 }
 
 li:hover {
@@ -76,7 +73,6 @@ p {
 footer {
   background-color: #DBE9EE;
   text-align: center;
-  height: 100px;
 }
 
 .welcome {
@@ -85,37 +81,24 @@ footer {
   padding: 40px;
   text-align: center;
   width: 100%;
-  position: relative;
-  top: 50px;
 }
 
 .question {
   text-align: center;
   position: relative;
   top: 40px;
-  /*
-  clear: left;
-  */
 }
 
 .answer {
   border: 1px solid #466995;
   margin: 20px;
-  display: inline-block;
-  /*
-  float: left;
-  */
 }
 
 .answer:hover {
   background: #C0D6DF;
   color: #FFF;
 }
-
 /*
-The clear property specifies how elements should behave when they bump into each other on the page. It can take on one of the following values:
-left — the left side of the element will not touch any other element within the same containing element.
-right — the right side of the element will not touch any other element within the same containing element.
-both — neither side of the element will touch any other element within the same containing element.
-none — the element can touch either side.
+sets the position inside of the header selector to absolute.
+sets the width property of the header to 100%.
 */
