@@ -33,6 +33,7 @@ This is a tricky questions because in (Computer Science) instances are commonly 
 ## How many instances of the server-side code are available at any given time?
 
 If we are talking about how many instances users can request to the server, as many as the server-side's infrastructure can support.
+<br>
 If we are talking about the instances or copies of the code in the server-side, it can be only one or as many as the infrastructure designers have decided.
 
 ## What is runtime?
@@ -45,5 +46,7 @@ When a program is in the runtime phase, the application is loaded into RAM. T
 ## How many instances of the databases connected to the server application are created?
 
 If we are talking about database connections is recommended to have only one connection per request, because the connection should be dropped after the request is completed.
+<br>
 If it is referring about the number of databases, it can be only one or as many as the database designers have decided.
+<br>
 And in last case, if it's referring to databases instances, as many as required or supported.
