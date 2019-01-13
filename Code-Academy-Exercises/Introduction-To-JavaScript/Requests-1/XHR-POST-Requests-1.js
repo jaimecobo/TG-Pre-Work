@@ -1,0 +1,6 @@
+// This lesson has no coding exercise.
+
+/*The major difference between a GET request and POST request is that a
+POST request requires additional information to be sent through the request.
+This additional information is sent in the body of the post request.
+*/
