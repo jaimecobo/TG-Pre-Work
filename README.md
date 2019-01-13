@@ -37,7 +37,7 @@ If we are talking about the instances or copies of the code in the server-side, 
 
 ## What is runtime?
 
-Ref. https://techterms.com/definition/runtime
+Ref. https://techterms.com/definition/runtime <br>
 Runtime is the period of time when a program is running. It begins when a program is opened (or executed) and ends with the program is quit or closed.
 Runtime is a technical term, used most often in software development. It is commonly seen in the context of a "runtime error," which is an error that occurs while a program is running. The term "runtime error" is used to distinguish from other types of errors, such as syntax errors and compiliation errors, which occur before a program is run.
 When a program is in the runtime phase, the application is loaded into RAM. This includes the executable file and any libraries, frameworks, or other files referenced by the program. When the program is quit, the runtime period ends and the memory used by the program is made available for use by other programs.
